@@ -5,17 +5,30 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    
+
     <title>JavaScript jQuery Homework 6-3-2019</title>
   </head>
+
   <body>
-    <div class="contianer">
-      <h1>HTML helps</h1>
 
-      <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+    <div class="container">
 
-      <p>Look at this cute walrus!</p>
-      <img src="https://oceanwide-4579.kxcdn.com/uploads/media-dynamic/cache/widen_1100/uploads/media/default/0001/12/thumb_11851_default_1600.jpeg" alt="picture of Walrus">
+      <!-- <button onclick="myFunction()">Click Me</button>
+      <div id="myDIV">Hello</div> -->
+      <button onclick="myFunction()">Click Me</button>
+      <button id="myButton">Click me too!</button>
+
+      <div id="myDIV">
+        <script>
+        document.getElementById("sentence").innerHTML="userSentence";
+        </script>
+        <p id="sentence"></p>
+      </div>
+
+      <h1>Click to reveal your original sentence</h1>
+
+      <p>Click to reveal your encoded sentence</p>
+
     </div>
 
   </body>
